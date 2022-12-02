@@ -13,11 +13,11 @@ spec:
         type: frontend
     spec:
       containers:
-      - name: nginx-container
-        image: nginx
-        ports:
+       - name: nginx-container
+         image: nginx
+         ports:
           - containerPort: 80
-        env:
+         env:
           - name: MYSQL_HOST
             value: mysql-svc
           - name: MYSQL_PORT

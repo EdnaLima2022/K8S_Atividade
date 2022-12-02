@@ -28,3 +28,4 @@ spec:
     matchLabels:
       type: mysql
   replicas: 2
+
